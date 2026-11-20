@@ -8,3 +8,5 @@ Public photo hosting for @jms.textiles. Instagram needs public image links.
 
 The daily scheduled task posts the **oldest** folder in `queue/` (one post per day) as a carousel
 (or single image if only one photo), then moves it to `posted/`. Empty queue → nothing is posted.
+
+- `tags.txt` — Instagram usernames (one per line, no @) tagged on every new post (max 20).
