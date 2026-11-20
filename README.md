@@ -2,7 +2,7 @@
 
 Public photo hosting for @jms.textiles. Instagram needs public image links.
 
-- `queue/<YYYY-MM-DD-name>/` — ready to post: `1.jpg`…`10.jpg` (already branded, 1080x1350) + `caption.txt`.
+- `queue/<YYYY-MM-DD-name>/` — ready to post: `1.jpg`…`10.jpg` (or `.mp4` videos, also 1080x1350) (already branded, 1080x1350) + `caption.txt`.
 - `posted/<folder>/` — moved here after posting; `posted.txt` records the Instagram media id.
 - `tools/brand.py` — adds the JMS Textiles banner + order number (78459 99726).
 
