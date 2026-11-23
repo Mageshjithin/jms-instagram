@@ -10,3 +10,5 @@ The daily scheduled task posts the **oldest** folder in `queue/` (one post per d
 (or single image if only one photo), then moves it to `posted/`. Empty queue → nothing is posted.
 
 - `tags.txt` — Instagram usernames (one per line, no @) tagged on every new post (max 20).
+
+- Reels style: **full-screen template** (owner chose option 1 on 2026-11-23) — see `tools/templates/reel_templates.py` (overlay A).
